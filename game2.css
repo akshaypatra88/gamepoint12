@@ -1,0 +1,104 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(204, 228, 247);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(14, 31, 111);
+    padding: 10px 20px;
+    color: aqua;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 5px;
+}
+
+.search-bar button {
+    padding: 6px 10px;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+}
+
+.cart a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    background-color:white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.product-item h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: #b12704;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.rating {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.product-item a{
+    padding: 10px 20px;
+    background-color: rgb(204, 228, 247);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.product-item a:hover {
+    background-color: aqua;
+}
+
+footer {
+    background-color: rgb(14, 31, 111);
+    color: aqua;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
